@@ -1,0 +1,14 @@
+name = "ai-powered-assistant"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[durable_objects.bindings]]
+name = "Chat"
+class_name = "Chat"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["Chat"]
+
+[ai]
+binding = "AI"
